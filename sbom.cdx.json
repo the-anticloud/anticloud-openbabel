@@ -1,0 +1,158 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:63a9c250-8a8f-5ea4-a328-00e3f2ba6d45",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-11T05:20:30Z",
+    "component": {
+      "type": "application",
+      "name": "OPENBABEL",
+      "version": "1c04f18b6509",
+      "bom-ref": "pkg:generic/anticloud/OPENBABEL@1c04f18b6509",
+      "purl": "pkg:generic/anticloud/OPENBABEL@1c04f18b6509",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "1c04f18b65090951edeb34334fa24491c0d16131"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/anticloud-openbabel.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "conda-forge",
+      "version": "unspecified",
+      "purl": "pkg:generic/conda-forge",
+      "bom-ref": "conda/conda-forge@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "python",
+      "version": "3.12",
+      "purl": "pkg:generic/python@3.12",
+      "bom-ref": "conda/python@3.12"
+    },
+    {
+      "type": "library",
+      "name": "numpydoc",
+      "version": "unspecified",
+      "purl": "pkg:generic/numpydoc",
+      "bom-ref": "conda/numpydoc@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:generic/numpy",
+      "bom-ref": "conda/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "unspecified",
+      "purl": "pkg:generic/scipy",
+      "bom-ref": "conda/scipy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-image",
+      "version": "unspecified",
+      "purl": "pkg:generic/scikit-image",
+      "bom-ref": "conda/scikit-image@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scikit-learn",
+      "version": "unspecified",
+      "purl": "pkg:generic/scikit-learn",
+      "bom-ref": "conda/scikit-learn@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "joblib",
+      "version": "unspecified",
+      "purl": "pkg:generic/joblib",
+      "bom-ref": "conda/joblib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "unspecified",
+      "purl": "pkg:generic/pandas",
+      "bom-ref": "conda/pandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": "unspecified",
+      "purl": "pkg:generic/packaging",
+      "bom-ref": "conda/packaging@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xlsxwriter",
+      "version": "unspecified",
+      "purl": "pkg:generic/xlsxwriter",
+      "bom-ref": "conda/xlsxwriter@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rdkit",
+      "version": "unspecified",
+      "purl": "pkg:generic/rdkit",
+      "bom-ref": "conda/rdkit@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "openbabel",
+      "version": "unspecified",
+      "purl": "pkg:generic/openbabel",
+      "bom-ref": "conda/openbabel@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "vina",
+      "version": "unspecified",
+      "purl": "pkg:generic/vina",
+      "bom-ref": "conda/vina@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pytest",
+      "version": "unspecified",
+      "purl": "pkg:generic/pytest",
+      "bom-ref": "conda/pytest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pytest-xdist",
+      "version": "unspecified",
+      "purl": "pkg:generic/pytest-xdist",
+      "bom-ref": "conda/pytest-xdist@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "black",
+      "version": "unspecified",
+      "purl": "pkg:generic/black",
+      "bom-ref": "conda/black@unspecified"
+    }
+  ]
+}
